@@ -1,37 +1,36 @@
-<script>
-    import "../app.css";
-</script>
-
-<img src="assets/obama.png" alt="Barack Obama" id="barack-obama-image" class="barack-obama-image"/>
+<img src="assets/obama.png" alt="Barack Obama" id="barack-obama-image" class="fade-in-image"/>
 <div id="text-content" class="offset-right text-group">
     <div id="text-1" class="text-item text-title" style="--order: 1">
         <h1>Why I Want to Work for the Obama Foundation</h1>
     </div>
     <div id="text-2" class="text-item" style="--order: 2">
-      <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis sit vitae ipsa ipsum tenetur facilis unde consequatur ipsam itaque nisi blanditiis nobis accusantium nostrum, vero error, incidunt ad cumque provident laboriosam rerum aliquam. Quo molestias soluta, exercitationem quam vitae sed a? Blanditiis asperiores fugiat sint unde alias mollitia beatae dolorum maiores animi? Dolore cum iste odit repudiandae illo excepturi perferendis pariatur incidunt, illum dignissimos repellat qui vitae exercitationem voluptatem libero voluptates, culpa, accusantium nihil ipsa corporis itaque sed numquam. Quisquam, tenetur expedita! Maiores ab in nobis quisquam dolore ipsam repudiandae enim, natus suscipit veniam praesentium consectetur excepturi autem iste dolor.</p>
+        <p class="">As a software developer with an enthusiastic drive for empowering people to change the world for the
+        better, I'm incredibly excited to submit my resume for consideration to become a member of your team. In
+        addition to my formal education and training, my history of hands-on experiences makes me an excellent
+        match for the unique demands of your software engineer II position.</p>
     </div>
     <div id="text-3" class="text-item" style="--order: 3">
-        <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis sit vitae ipsa ipsum tenetur facilis unde consequatur ipsam itaque nisi blanditiis nobis accusantium nostrum, vero error, incidunt ad cumque provident laboriosam rerum aliquam. Quo molestias soluta, exercitationem quam vitae sed a? Blanditiis asperiores fugiat sint unde alias mollitia beatae dolorum maiores animi? Dolore cum iste odit repudiandae illo excepturi perferendis pariatur incidunt, illum dignissimos repellat qui vitae exercitationem voluptatem libero voluptates, culpa, accusantium nihil ipsa corporis itaque sed numquam. Quisquam, tenetur expedita! Maiores ab in nobis quisquam dolore ipsam repudiandae enim, natus suscipit veniam praesentium consectetur excepturi autem iste dolor.</p>
+        <p class="">In my professional roles and projects, I have:</p>
+        <ul>
+            <li>Implemented engaging and accessible web apps from foundation to polish.</li>
+            <li>Mastered knowledge of several domains and technologies as a versatile and t-shaped developer.</li>
+            <li>Contributed to a software development process both individually and in a team.</li>
+            <li>Achieved and exceeded several product goals for different clients.</li>
+        </ul>
     </div>
     <div id="text-4" class="text-item" style="--order: 4">
-        <p class="">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat laudantium deserunt velit! Voluptatem, natus tempore quisquam quis aliquid similique inventore numquam nobis. Dicta sunt, autem consectetur obcaecati recusandae nisi ullam.</p>
+        <p class=""><a href="/resume">Please review the examples on my resume</a>, which outline the many strengths I can leverage to advance
+        the Obama Foundation's mission of moving people from hope to action. I look forward to discussing how
+        I can benefit your organization in greater detail. In the interim, thank you for reviewing this letter and the
+        attached material.</p>
     </div>
-</div>
-
-<div id="selector" class="selector">
-    <img src="assets/selector.png" alt="Selector bar for module section" id="selector-bar" class="selector-bar"/>
-    <div id="selector-circle-set" class="selector-circle-set">
-        <div id="selector-circle" class="selector-circle">
-            <img src="assets/circle.png" alt="Selector item background for module section" id="selector-circle-background" class="selector-circle-background"/>
-            <img src="assets/circle_blank.png" alt="Selector item for module section" id="selector-circle-link" class="selector-circle-link"/>
-        </div>
-        <div id="selector-circle" class="selector-circle">
-            <img src="assets/circle.png" alt="Selector item background for module section" id="selector-circle-background" class="selector-circle-background"/>
-            <img src="assets/circle_blank.png" alt="Selector item for module section" id="selector-circle-link" class="selector-circle-link"/>
-        </div>
-        <div id="selector-circle" class="selector-circle">
-            <img src="assets/circle.png" alt="Selector item background for module section" id="selector-circle-background" class="selector-circle-background"/>
-            <img src="assets/circle_blank.png" alt="Selector item for module section" id="selector-circle-link" class="selector-circle-link"/>
-        </div>
+    <div id="text-5" class="text-item" style="--order: 8">
+        <p class="">
+            Sincerely,
+            <br/>
+            <br/>
+            <br/>
+            Isaac Lee
+        </p>
     </div>
 </div>
