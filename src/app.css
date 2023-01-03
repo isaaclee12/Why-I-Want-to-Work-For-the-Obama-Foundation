@@ -1,0 +1,73 @@
+.barack-obama-image {
+    /* width: 60%; */
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 100vh;
+    margin-bottom: -1em;
+    animation: fadeIn 3s;
+    z-index: -100;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.offset-right {
+    margin-top: 7.5%;
+    margin-left: 45%;
+    margin-right: 15%;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.text-group div {
+    opacity: 0%;
+    animation: fadeInFromLeft 7s ease forwards;
+    animation-delay: calc(var(--order)*200ms);
+}
+
+@keyframes fadeInFromLeft {
+    20% {
+        opacity: 0;
+        transform: translateX(-50%);
+    }
+
+    30%, 100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.selector-bar {
+    height: 6em;
+    width: 102.1%;
+    margin-top: 12em;
+    margin-left: -2em;
+    margin-right: -2em;
+    animation: appearFromLeft 1s linear; 
+}
+
+@keyframes appearFromLeft {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
