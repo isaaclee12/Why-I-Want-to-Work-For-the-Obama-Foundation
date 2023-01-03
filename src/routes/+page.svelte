@@ -2,21 +2,27 @@
     import "../app.css";
 </script>
 
-<img src="assets/obama.png" alt="Barack Obama" class="barack-obama-image"/>
-<div class="offset-right text-group">
-    <div style="--order: 1">
+<img src="assets/obama.png" alt="Barack Obama" id="barack-obama-image" class="barack-obama-image"/>
+<div id="text-content" class="offset-right text-group">
+    <div id="text-1" style="--order: 1">
         <h1>Why I Want to Work for the Obama Foundation</h1>
     </div>
-    <div style="--order: 2">
+    <div id="text-2" style="--order: 2">
         <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis sit vitae ipsa ipsum tenetur facilis unde consequatur ipsam itaque nisi blanditiis nobis accusantium nostrum, vero error, incidunt ad cumque provident laboriosam rerum aliquam. Quo molestias soluta, exercitationem quam vitae sed a? Blanditiis asperiores fugiat sint unde alias mollitia beatae dolorum maiores animi? Dolore cum iste odit repudiandae illo excepturi perferendis pariatur incidunt, illum dignissimos repellat qui vitae exercitationem voluptatem libero voluptates, culpa, accusantium nihil ipsa corporis itaque sed numquam. Quisquam, tenetur expedita! Maiores ab in nobis quisquam dolore ipsam repudiandae enim, natus suscipit veniam praesentium consectetur excepturi autem iste dolor.</p>
     </div>
-    <div style="--order: 3">
+    <div id="text-3" style="--order: 3">
         <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis sit vitae ipsa ipsum tenetur facilis unde consequatur ipsam itaque nisi blanditiis nobis accusantium nostrum, vero error, incidunt ad cumque provident laboriosam rerum aliquam. Quo molestias soluta, exercitationem quam vitae sed a? Blanditiis asperiores fugiat sint unde alias mollitia beatae dolorum maiores animi? Dolore cum iste odit repudiandae illo excepturi perferendis pariatur incidunt, illum dignissimos repellat qui vitae exercitationem voluptatem libero voluptates, culpa, accusantium nihil ipsa corporis itaque sed numquam. Quisquam, tenetur expedita! Maiores ab in nobis quisquam dolore ipsam repudiandae enim, natus suscipit veniam praesentium consectetur excepturi autem iste dolor.</p>
     </div>
-    <div style="--order: 4">
+    <div id="text-4" style="--order: 4">
         <p class="">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat laudantium deserunt velit! Voluptatem, natus tempore quisquam quis aliquid similique inventore numquam nobis. Dicta sunt, autem consectetur obcaecati recusandae nisi ullam.</p>
     </div>
 </div>
 
-
-<img src="assets/selector.png" alt="Selector bar for module section" class="selector-bar"/>
+<div id="selector" class="selector">
+    <img src="assets/selector.png" alt="Selector bar for module section" id="selector-bar" class="selector-bar"/>
+    <div id="selector-circle-set" class="selector-circle-set">
+        <img src="assets/circle.png" alt="Selector item for module section" id="selector-circle" class="selector-circle"/>
+        <img src="assets/circle.png" alt="Selector item for module section" id="selector-circle" class="selector-circle"/>
+        <img src="assets/circle.png" alt="Selector item for module section" id="selector-circle" class="selector-circle"/>
+    </div>
+</div>

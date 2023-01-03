@@ -4,8 +4,10 @@
     left: 0px;
     top: 0px;
     height: 100vh;
-    margin-bottom: -1em;
-    animation: fadeIn 3s;
+    margin-top: -2em;
+    margin-bottom: -2em;
+    opacity: 0;
+    animation: fadeIn 4s forwards;
     z-index: -100;
 }
 
@@ -14,7 +16,7 @@
         opacity: 0;
     }
 
-    to {
+    100% {
         opacity: 1;
     }
 }
@@ -26,7 +28,7 @@
 }
 
 @keyframes fadeIn {
-    from {
+    20% {
         opacity: 0;
     }
 
@@ -54,11 +56,14 @@
 }
 
 .selector-bar {
-    height: 6em;
+    height: 5.5em;
     width: 102.1%;
-    margin-top: 12em;
+
+    position: fixed;
+    bottom: 0px;
     margin-left: -2em;
     margin-right: -2em;
+
     animation: appearFromLeft 1s linear; 
 }
 
@@ -70,4 +75,25 @@
     to {
         transform: translateX(0);
     }
+}
+
+.selector-circle-set {
+    border: 1px solid #666;
+    position: absolute;
+    bottom: 0px;
+    margin-left: 50%;
+    width: 50%;
+}
+
+.selector-circle {
+    max-width: 20%;
+    max-height: 20%;
+    margin-left: 7%;
+    opacity: 0;
+    transition: opacity 0.15s ease-out 100ms;
+}
+
+.selector-circle:hover {
+    opacity: 1;
+    /* opacity: 1; */
 }
