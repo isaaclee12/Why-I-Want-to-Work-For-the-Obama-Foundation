@@ -1,5 +1,5 @@
 
-<div class="text-grid">
+<div class="even-grid">
     <div id="text-content" class="offset-left text-group text-resume">
         <img src="assets/isaac.jpg" alt="Isaac Lee" id="isaac-lee-image" class="isaac-lee-image" />
         <div id="section-title" class="text-item" style="--order: 2">
