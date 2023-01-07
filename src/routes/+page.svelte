@@ -1,6 +1,6 @@
 <div class="even-grid">
     <div>
-        <img src="assets/obama.png" alt="Barack Obama" id="barack-obama-image" class="fade-in-image"/>
+        <img src="assets/obama.png" alt="Barack Obama" id="barack-obama-image" class="fade-in-image barack-obama-image"/>
     </div>    
     <div id="text-content" class="text-group">
         <div id="text-1" class="text-item text-title" style="--order: 1">

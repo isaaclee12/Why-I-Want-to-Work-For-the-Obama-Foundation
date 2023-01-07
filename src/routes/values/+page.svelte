@@ -23,9 +23,9 @@
         />
     </div>
     <div>
-        <h1>My Values</h1>
+        <h1 class="title text-center">My Values</h1>
         <div class="even-grid">
-            <div>
+            <div class="text-item">
                 <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;External Values:</h3>
                 <ul>
                     <li>Anti-Discrimination</li>
@@ -36,7 +36,7 @@
                     <li>Empowering Others</li>
                 </ul>
             </div>
-            <div>
+            <div class="text-item">
                 <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Internal Values:</h3>
                 <ul>
                     <li>Health & Family First</li>
@@ -48,7 +48,7 @@
                 </ul>
             </div>
         </div>
-        <p>
+        <p class="text-item">
             I believe one should look at how an individual has improved over time rather than holding that 
             individual or group to an incredibly high and perhaps unrealistic standard in the short term. 
             The most important individual to practice this with is yourself.

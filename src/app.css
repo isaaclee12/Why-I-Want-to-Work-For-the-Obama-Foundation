@@ -2,13 +2,6 @@
     --circle-size: 100px;
 }
 
-/* testing @media tag */
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
-  }
-}
-
 .fade-in-image {
     /* width: 60%; */
     /* position: absolute;
@@ -62,7 +55,7 @@
     left: -2%;
 }
 
-.image-group .image-item{
+.image-group .image-item {
     opacity: 0%;
     animation: fadeIn 3s forwards;
     animation-delay: calc(var(--order)*750ms);
@@ -100,6 +93,10 @@
     }
 }
 
+.text-group {
+    margin-bottom: 10em;
+}
+
 .text-group .text-item {
     opacity: 0%;
     animation: fadeInFromLeft 7s ease forwards;
@@ -121,14 +118,15 @@
 }
 
 .title {
-    font-size: 28px;
+    font-size: 36px;
 }
 
 .text-resume {
-    margin-bottom: 8em;
+    margin-bottom: 7em;
 }
 
 .resume-list {
+    margin-left: -5em;
     font-size: 16px;
 }
 
@@ -195,16 +193,16 @@
 .selector-circle-label {
     max-width: 100px;
     max-height: 100px;
-    opacity: 0.1;    
+    opacity: 0.1;
 }
 
 /* Make background expand when hovering over the circle */
-.selector-circle:hover .selector-circle-background{
+.selector-circle:hover .selector-circle-background {
     opacity: 1;
     z-index: 0;
 }
 
-.selector-circle:hover .selector-circle-label{
+.selector-circle:hover .selector-circle-label {
     opacity: 1;
 }
 
@@ -227,4 +225,82 @@
     left: 0;
     bottom: 0;
     margin-bottom: 2%;
+}
+
+/* testing @media tag */
+/* Tablet */
+@media only screen and (max-width: 960px) {
+
+    /* Home Page */
+
+    .barack-obama-image {
+        position: absolute;
+        left: -9999999px;
+    }
+
+    /* General Layout */
+
+    .even-grid {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10em;
+    }
+    
+    .uneven-grid {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10em;
+    }
+
+    .uneven-grid .even-grid {
+        margin-bottom: 0em;
+    }
+
+    .text-item {
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 18px;
+    }
+
+    .selector-circle-set {
+    /* border: 1px solid #666; */
+    position: fixed;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 7em 7em 7em;
+    margin-left: 25%;
+    justify-content: center;
+
+    margin-bottom: -10px;
+    width: 50%;
+    z-index: 200;
+    }
+
+    /* Resume Page */
+
+    .offset-left {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .text-resume {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .resume-list {
+    margin-left: -3em;
+    margin-right: -3em;
+    }
+
+    /* Values Page */
+
+    .image-group {
+        visibility: hidden;
+    }
+
+    .text-center {
+        text-align: center;
+    }
 }

@@ -1,34 +1,11 @@
-
 <div class="even-grid">
     <div id="text-content" class="offset-left text-group text-resume">
-        <img src="assets/isaac.jpg" alt="Isaac Lee" id="isaac-lee-image" class="isaac-lee-image" />
-        <div id="section-title" class="text-item" style="--order: 2">
-            <h1>Projects</h1>
-        </div>
-        <div id="text-3" class="text-item" style="--order: 3">
-            <h3>Portfolio - Creator</h3>
-            <p>
-                My website, hosted on my Raspberry Pi in a Linux environment via
-                Cloudflare. Created with Nodejs, SvelteKit, and Tailwind.
-            </p>
-        </div>
-        <div id="text-4" class="text-item" style="--order: 4">
-            <h3>ScheduleMaker - Creator</h3>
-            <p>
-                A webtool for keeping track of your small business' schedules.
-                Created with Javascript, React, Django, & MySQL.
-            </p>
-        </div>
-        <div id="text-5" class="text-item" style="--order: 5">
-            <h3>Racial Disparities In Police Killings By State - Creator</h3>
-            <p>
-                A data visualization of racial disparities in police killings for
-                each US State. Created with HTML, CSS, Javascript, Flask, & MongoDB.
-            </p>
-        </div>
-    </div>
-
-    <div id="text-content" class="text-group text-resume">
+        <img
+            src="assets/isaac.jpg"
+            alt="Isaac Lee"
+            id="isaac-lee-image"
+            class="isaac-lee-image"
+        />
         <div id="text-1" class="text-item text-title" style="--order: 1">
             <h1 class="title">Isaac Lee is your ideal Software Engineer</h1>
         </div>
@@ -47,7 +24,11 @@
                         height="40"
                     />
                 </a>
-                <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer">
+                <a
+                    href="https://www.w3.org/html/"
+                    target="_blank"
+                    rel="noreferrer"
+                >
                     <img
                         src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
                         alt="html5"
@@ -79,7 +60,11 @@
                         height="40"
                     />
                 </a>
-                <a href="https://getbootstrap.com" target="_blank" rel="noreferrer">
+                <a
+                    href="https://getbootstrap.com"
+                    target="_blank"
+                    rel="noreferrer"
+                >
                     <img
                         src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg"
                         alt="bootstrap"
@@ -87,7 +72,11 @@
                         height="40"
                     />
                 </a>
-                <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer">
+                <a
+                    href="https://tailwindcss.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                >
                     <img
                         src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg"
                         alt="tailwind"
@@ -111,7 +100,6 @@
                         height="40"
                     />
                 </a>
-                <br />
                 <a href="https://nodejs.org" target="_blank" rel="noreferrer">
                     <img
                         src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
@@ -132,7 +120,11 @@
                         height="40"
                     />
                 </a>
-                <a href="https://expressjs.com" target="_blank" rel="noreferrer">
+                <a
+                    href="https://expressjs.com"
+                    target="_blank"
+                    rel="noreferrer"
+                >
                     <img
                         src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg"
                         alt="express"
@@ -152,7 +144,11 @@
                         height="40"
                     />
                 </a>
-                <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer">
+                <a
+                    href="https://www.mongodb.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                >
                     <img
                         src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg"
                         alt="mongodb"
@@ -160,7 +156,11 @@
                         height="40"
                     />
                 </a>
-                <a href="https://www.mysql.com/" target="_blank" rel="noreferrer">
+                <a
+                    href="https://www.mysql.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                >
                     <img
                         src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg"
                         alt="mysql"
@@ -168,8 +168,11 @@
                         height="40"
                     />
                 </a>
-                <br />
-                <a href="https://aws.amazon.com" target="_blank" rel="noreferrer">
+                <a
+                    href="https://aws.amazon.com"
+                    target="_blank"
+                    rel="noreferrer"
+                >
                     <img
                         src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
                         alt="aws"
@@ -189,7 +192,11 @@
                         height="40"
                     />
                 </a>
-                <a href="https://www.linux.org/" target="_blank" rel="noreferrer">
+                <a
+                    href="https://www.linux.org/"
+                    target="_blank"
+                    rel="noreferrer"
+                >
                     <img
                         src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg"
                         alt="linux"
@@ -197,7 +204,11 @@
                         height="40"
                     />
                 </a>
-                <a href="https://www.nginx.com" target="_blank" rel="noreferrer">
+                <a
+                    href="https://www.nginx.com"
+                    target="_blank"
+                    rel="noreferrer"
+                >
                     <img
                         src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg"
                         alt="nginx"
@@ -213,7 +224,11 @@
                         height="40"
                     />
                 </a>
-                <a href="https://www.python.org" target="_blank" rel="noreferrer">
+                <a
+                    href="https://www.python.org"
+                    target="_blank"
+                    rel="noreferrer"
+                >
                     <img
                         src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"
                         alt="python"
@@ -235,6 +250,8 @@
                 </a>
             </ul>
         </div>
+    </div>
+    <div id="text-content" class="text-group text-resume">
         <div id="text-2" class="text-item" style="--order: 2">
             <h1>Employment History:</h1>
         </div>
@@ -244,18 +261,20 @@
             <p>Sept 2021 - April 2022 / Burlington, Vermont</p>
             <ul>
                 <li>
-                    Managed an educational module about the proper method of opioid
-                    treatment
+                    Managed an educational module about the proper method of
+                    opioid treatment
                 </li>
                 <li>
-                    Communicated with medical professionals to ensure all medical
-                    information was accurate
+                    Communicated with medical professionals to ensure all
+                    medical information was accurate
                 </li>
                 <li>
-                    Refactored the Javascript code structure to be more efficient,
-                    dynamic, and readable
+                    Refactored the Javascript code structure to be more
+                    efficient, dynamic, and readable
                 </li>
-                <li>Revised the game flow of the module using Articulate 360</li>
+                <li>
+                    Revised the game flow of the module using Articulate 360
+                </li>
             </ul>
         </div>
         <div id="text-4" class="text-item" style="--order: 4">
@@ -264,18 +283,44 @@
             <p>April 2021 - Dec 2021 / Burlington, Vermont</p>
             <ul>
                 <li>
-                    Redesigned the website for the Statistics and Data Science Club
-                    based on client specifications
+                    Redesigned the website for the Statistics and Data Science
+                    Club based on client specifications
                 </li>
                 <li>
-                    Utilized API technologies to pipeline back end data to multiple
-                    front end routes
+                    Utilized API technologies to pipeline back end data to
+                    multiple front end routes
                 </li>
                 <li>
-                    Leveraged engineering skills in Python, Django, Bootstrap CSS,
-                    and Shell to reconstruct the domain
+                    Leveraged engineering skills in Python, Django, Bootstrap
+                    CSS, and Shell to reconstruct the domain
                 </li>
             </ul>
+        </div>
+
+        <div id="section-title" class="text-item" style="--order: 2">
+            <h1>Projects</h1>
+        </div>
+        <div id="text-3" class="text-item" style="--order: 3">
+            <h3>Portfolio - Creator</h3>
+            <p>
+                My website, hosted on my Raspberry Pi in a Linux environment via
+                Cloudflare. Created with Nodejs, SvelteKit, and Tailwind.
+            </p>
+        </div>
+        <div id="text-4" class="text-item" style="--order: 4">
+            <h3>ScheduleMaker - Creator</h3>
+            <p>
+                A webtool for keeping track of your small business' schedules.
+                Created with Javascript, React, Django, & MySQL.
+            </p>
+        </div>
+        <div id="text-5" class="text-item" style="--order: 5">
+            <h3>Racial Disparities In Police Killings By State - Creator</h3>
+            <p>
+                A data visualization of racial disparities in police killings
+                for each US State. Created with HTML, CSS, Javascript, Flask, &
+                MongoDB.
+            </p>
         </div>
     </div>
 </div>
