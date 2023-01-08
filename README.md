@@ -2,13 +2,8 @@
 
 <h4 align="center"> Production Build: https://isaac-lee-obama-foundation.netlify.app/ </h4>
 
-<div style="
-    display: flex;
-    justify-content: center;
-">
-    <img src="static/assets/demo.gif" style="
-        max-width: 75%;
-    ">
+<div align="center">
+    <img src="static/assets/demo.gif" style="max-width: 50%;">
 </div>
 
 <!-- <p align="center">
