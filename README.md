@@ -11,8 +11,8 @@
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=isaaclee12&repo=Why-I-Want-to-Work-For-the-Obama-Foundation&theme=synthwave">
 </p>
 
-### [+] Description
+### Description
 My application to the Obama Foundation for a position as a Software Engineer. Created in SvelteKit.
 
-### [+] Find me on 
+### Find me on 
 <a href="mailto:isaac.wonha.lee@outlook.com" target="_blank"><img src="https://img.shields.io/badge/Email-isaac.wonha.lee@outlook.com-blue?style=for-the-badge&logo=gmail"></a>
