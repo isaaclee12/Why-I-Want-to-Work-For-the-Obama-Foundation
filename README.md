@@ -2,7 +2,16 @@
 
 <h4 align="center"> Production Build: https://isaac-lee-obama-foundation.netlify.app/ </h4>
 
-<p align="center">
+<div style="
+    display: flex;
+    justify-content: center;
+">
+    <img src="static/assets/demo.gif" style="
+        max-width: 75%;
+    ">
+</div>
+
+<!-- <p align="center">
 <br>
     <img src="https://img.shields.io/badge/Author-Isaac Lee-magenta?style=flat-square">
     <img src="https://img.shields.io/badge/Open%20Source-No-orange?style=flat-square">
@@ -11,6 +20,8 @@
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=isaaclee12&repo=Why-I-Want-to-Work-For-the-Obama-Foundation&theme=synthwave">
 </p>
 
+ -->
+ 
 ### Description
 My application to the Obama Foundation for a position as a Software Engineer. Created in SvelteKit.
 
